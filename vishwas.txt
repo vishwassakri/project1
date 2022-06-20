@@ -1,0 +1,20 @@
+print("Welcome to Employee Data base")                                   
+                                                                         
+class employee():                                                        
+    def __init__(self, Name, Sex, Age, Company):                         
+        self.Name = Name                                                 
+        self.Sex = Sex                                                   
+        self.Age = Age                                                   
+        self.Company = Company                                           
+                                                                         
+                                                                         
+Manoj = employee('Manoj', 'Male', '22', 'Google')                        
+Manjunath = employee('Manjunath', 'Male', '28', 'Apple')                 
+Bhavana = employee('Bhavana', 'Female', '21', 'AIIMS')                   
+Vishwas = employee('Vishwas', 'Male', '23', 'ISRO')                      
+                                                                         
+print(Manoj.__dict__)                                                    
+print(Manjunath.__dict__)                                                
+print(Bhavana.__dict__)                                                  
+print(Vishwas.__dict__)                                                  
+                                                                         
